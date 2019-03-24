@@ -10,9 +10,6 @@
     <param-name>javax.servlet.jsp.jstl.fmt.localizationContext</param-name>
     <param-value>resources.application</param-value>
   </context-param>
-  <listener>
-    <listener-class>com.sun.faces.config.ConfigureListener</listener-class>
-  </listener>
   <resource-ref>
     <description>Student Tracker Datasource</description>
     <res-ref-name>jdbc/student-tracker</res-ref-name>

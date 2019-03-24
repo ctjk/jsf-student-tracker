@@ -2,7 +2,7 @@
 
   <Resource name="jdbc/student-tracker" 
   			auth="Container" type="javax.sql.DataSource"
-               maxActive="5" maxIdle="1" maxWait="10000"
+               maxTotal="5" maxIdle="1" maxWaitMillis="10000"
                username="training" password="training" 
                driverClassName="oracle.jdbc.OracleDriver"
                url="jdbc:oracle:thin:@//localhost:1521/XE"/>
